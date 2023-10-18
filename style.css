@@ -1,3 +1,36 @@
+html{
+    scroll-behavior: smooth;
+}
+/* Custom CSS Styles */
+header{
+    header {
+        background-color: #0a4c79;
+        color: #fff;
+        text-align: center;
+        padding: 5rem 0; /* Increase padding for more impact */
+    }
+    
+    header h1 {
+        font-size: 2.5rem; /* Increase font size for the name */
+        font-weight: bold; /* Make the name bold */
+    }
+    
+    header p {
+        font-size: 1.2rem; /* Adjust font size for the job title */
+        font-style: italic; /* Make the job title italic */
+        margin-top: 10px; /* Add some spacing between name and title */
+    }
+    
+    /* Add more CSS styles as needed */
+    
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hwb(0 95% 4%);
+    color: #333;
+}
 /* Apply your custom CSS styles here */
 body {
     font-family: Arial, sans-serif;
@@ -8,24 +41,113 @@ body {
 }
 
 header {
-    background-color: #007acc;
+    background-color: #0a4c79;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
 }
 
+nav.creative-nav {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center; /* Center vertically */
+}
+
+nav.creative-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav.creative-nav ul li {
+    margin: 0 20px; /* Adjust the margin for spacing */
+}
+
+nav.creative-nav ul li a {
+    text-decoration: none;
+    color: #333; /* Your preferred link color */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Add a smooth transition effect */
+}
+
+nav.creative-nav ul li a:hover {
+    color: #ff8c00; /* Change color on hover */
+}
+
+.profile-image img {
+    max-width: 50px; /* Adjust the size of the profile image */
+    border-radius: 50%; /* Make the image circular */
+    margin-right: 10px; /* Add spacing to the right of the image */
+}
+
+
+/* Navigation Bar Styles */
+
 nav ul {
+    display: flex;
     list-style: none;
     padding: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 10px;
+    margin-right: 15px;
 }
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* Your preferred link color */
+}
+
+
+/* Section Styles */
 
 section {
     padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 10px 0;
 }
 
-/* Add more CSS styles for different sections and elements */
+section h2 {
+    color: #0a4c79;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Concise and Innovative Styles */
+
+/* Create a unified spacing class for margin and padding */
+.m-0 {
+    margin: 0;
+}
+
+.p-2 {
+    padding: 2rem;
+}
+
+/* Highlight key elements with unique colors */
+.primary-bg {
+    background-color: #0a4c79;
+}
+
+.primary-text {
+    color: #0a4c79;
+}
+
+.accent-color {
+    color: #141313;
+}
+
+/* Add more innovative CSS styles for different sections and elements */
