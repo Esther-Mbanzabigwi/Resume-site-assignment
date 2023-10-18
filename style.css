@@ -6,7 +6,7 @@ html{
     header {
         color: #fff;
         text-align: center;
-        height: 50vh;
+        height: 15vh;
         background-image:url(Faith\ pic.png);
         background-repeat: no-repeat;
         background-size: cover;
@@ -76,7 +76,7 @@ nav.creative-nav ul li a:hover {
 }
 
 .profile-image img {
-    max-width: 200px; /* Adjust the size of the profile image */
+    max-width: 100px; /* Adjust the size of the profile image */
     border-radius: 50%; /* Make the image circular */
     margin-right: 10px; /* Add spacing to the right of the image */
 }
@@ -156,6 +156,7 @@ section h2 {
 #projects {
     padding: 2rem;
     background-color: #f8f8f8; /* Background color for the Projects section */
+    text-align: center;
 }
 
 #projects h2 {
@@ -163,13 +164,25 @@ section h2 {
     color: #0a4c79; /* Header text color */
 }
 
-#projects ul {
+.project-list {
     list-style: none;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-#projects li {
-    margin-bottom: 20px;
+.project-list li {
+    margin: 20px;
+    text-align: left;
+    max-width: 400px; /* Control the maximum width of each project item */
+}
+
+.project-item {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
 
 .project-image {
@@ -179,6 +192,64 @@ section h2 {
     margin-top: 10px; /* Add spacing above the image */
 }
 
-.project-image:hover {
-    opacity: 0.7; /* Reduce opacity on hover for a subtle effect */
+/* Style the Contact Me section */
+#contact {
+    padding: 2rem 0;
+    background-color: #f8f8f8;
+    text-align: center;
 }
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.contact-form, .contact-info {
+    width: 48%;
+    text-align: left;
+}
+
+.contact-form h2, .contact-info h2 {
+    color: #0a4c79;
+}
+
+.contact-form form {
+    padding: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0a4c79;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #ff8c00;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+
+

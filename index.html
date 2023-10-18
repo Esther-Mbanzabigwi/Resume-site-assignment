@@ -51,39 +51,28 @@
                         <p>Sept 2022 - Feb 2025</p>
                     </li>
                     <!-- Add more education entries here -->
-                </ul>
-            </section>
-            <section id="skills">
-                <h2>Skills</h2>
-                <ul>
-                    <li>Programming Languages: Java, Python, C++</li>
-                    <li>Web Development: HTML, CSS, JavaScript</li>
-                    <li>Backend Development: Node.js, Express, Flask</li>
-                    <li>Database Management: SQL, MongoDB</li>
-                    <li>Frontend Frameworks: React, Angular</li>
-                    <li>Agile Development and Scrum</li>
-                    <li>DevOps and CI/CD (Git, Jenkins)</li>
-                    <li>Version Control (Git)</li>
-                    <li>Problem Solving and Algorithms</li>
-                    <li>Strong Communication and Collaboration</li>
-                    <!-- Add more skills here -->
-                </ul>
-            </section>
-            <section id="projects">
-                <h2>Projects</h2>
-                <ul>
-                    <li>
-                        <h3>[Project 1: Online Bookstore]</h3>
-                        <img src="online book store.webp" alt="Project 1 Image" class="project-image">
-                        <p>Developed a full-stack online bookstore with user authentication, search functionality, and secure payment processing.</p>
-                        <p>Technologies Used: Node.js, React, MongoDB, JWT Authentication</p>
-                    </li>
-                    <li>
-                        <h3>[Project 2: Task Management Application]</h3>
-                        <img src="airfocus-v89zhr0iBFY-unsplash.jpg" alt="Project 2 Image" class="project-image">
-                        <p>Created a task management application with real-time collaboration features using WebSockets.</p>
-                        <p>Technologies Used: Node.js, Express, React, Socket.io</p>
-                    </li>
+                    <section id="projects">
+                        <h2>Projects</h2>
+                        <ul class="project-list">
+                            <li>
+                                <h3>[Project 1: Online Bookstore]</h3>
+                                <div class="project-item">
+                                    <img src="online book store.webp" alt="Project 1 Image" class="project-image">
+                                    <p>Developed a full-stack online bookstore with user authentication, search functionality, and secure payment processing.</p>
+                                    <p>Technologies Used: Node.js, React, MongoDB, JWT Authentication</p>
+                                </div>
+                            </li>
+                            <li>
+                                <h3>[Project 2: Task Management Application]</h3>
+                                <div class="project-item">
+                                    <img src="airfocus-v89zhr0iBFY-unsplash.jpg" alt="Project 2 Image" class="project-image">
+                                    <p>Created a task management application with real-time collaboration features using WebSockets.</p>
+                                    <p>Technologies Used: Node.js, Express, React, Socket.io</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    
                     <!-- Add more project entries here -->
                 </ul>
             </section>
@@ -101,17 +90,30 @@
                     </li> -->
                     <!-- Add more project entries here -->
                 </ul>
-            </section>
-            <section id="contact">
-                <h2>Contact Me</h2>
-                <form id="contact-form">
-                    <input type="text" placeholder="Your Name">
-                    <input type="email" placeholder="Your Email">
-                    <textarea placeholder="Your Message"></textarea>
-                    <button>Send</button>
-                </form>
-            </section>
-        </section>
+                <section id="contact">
+                    <div class="contact-container">
+                        <div class="contact-form">
+                            <h2>Contact Form</h2>
+                            <form id="contact-form">
+                                <input type="text" id="name" placeholder="Your Name" required>
+                                <input type="email" id="email" placeholder="Your Email" required>
+                                <textarea id="message" placeholder="Your Message" required></textarea>
+                                <button id="send-button">Send</button>
+                            </form>
+                        </div>
+                        <div class="contact-info">
+                            <h2>Contact Information</h2>
+                            <p><b>Email: mbanzabigwiesther@gmail.com</b></p>
+                            <p><b>Instagram: esther-mbanzabigwi</b></p>
+                        </div>
+                    </div>
+                </section>
+                
+                        </div>
+                    </section>
+                     
+                </section>
+                
     </div>
     <script src="RESPONSIVE DESIGN\script.js"></script>
 </body>
