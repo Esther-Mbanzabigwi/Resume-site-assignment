@@ -2,13 +2,19 @@ html{
     scroll-behavior: smooth;
 }
 /* Custom CSS Styles */
-header{
+
     header {
-        background-color: #0a4c79;
         color: #fff;
         text-align: center;
-        padding: 5rem 0; /* Increase padding for more impact */
+        height: 50vh;
+        background-image:url(Faith\ pic.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        padding: 20rem 0; /* Increase padding for more impact */
     }
+
     
     header h1 {
         font-size: 2.5rem; /* Increase font size for the name */
@@ -23,7 +29,7 @@ header{
     
     /* Add more CSS styles as needed */
     
-}
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -40,12 +46,7 @@ body {
     color: #333;
 }
 
-header {
-    background-color: #0a4c79;
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
-}
+
 
 nav.creative-nav {
     display: flex;
@@ -75,7 +76,7 @@ nav.creative-nav ul li a:hover {
 }
 
 .profile-image img {
-    max-width: 50px; /* Adjust the size of the profile image */
+    max-width: 200px; /* Adjust the size of the profile image */
     border-radius: 50%; /* Make the image circular */
     margin-right: 10px; /* Add spacing to the right of the image */
 }
@@ -85,6 +86,7 @@ nav.creative-nav ul li a:hover {
 
 nav ul {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     padding: 0;
 }
@@ -150,4 +152,33 @@ section h2 {
     color: #141313;
 }
 
-/* Add more innovative CSS styles for different sections and elements */
+/* Style the Project section */
+#projects {
+    padding: 2rem;
+    background-color: #f8f8f8; /* Background color for the Projects section */
+}
+
+#projects h2 {
+    font-size: 2rem;
+    color: #0a4c79; /* Header text color */
+}
+
+#projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+#projects li {
+    margin-bottom: 20px;
+}
+
+.project-image {
+    max-width: 100%; /* Ensure the image fits within its container */
+    border: 1px solid #ddd; /* Add a border for a clean look */
+    border-radius: 5px; /* Round the image corners */
+    margin-top: 10px; /* Add spacing above the image */
+}
+
+.project-image:hover {
+    opacity: 0.7; /* Reduce opacity on hover for a subtle effect */
+}
