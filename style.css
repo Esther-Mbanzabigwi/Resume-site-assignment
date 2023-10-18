@@ -250,6 +250,47 @@ section h2 {
 .contact-info p {
     margin: 10px 0;
 }
+/* Style the Education section */
+#education {
+    padding: 2rem;
+    background-color: #f8f8f8; /* Background color for the Education section */
+    text-align: center;
+}
+
+#education h2 {
+    font-size: 2rem;
+    color: #0a4c79; /* Header text color */
+}
+
+.education-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 300px;
+    margin: 0 auto;
+    profil
+}
+
+.education-details {
+    width: 30%;
+    text-align: left;
+}
+
+.education-details h3 {
+    color: #0a4c79; /* Subheader text color */
+}
+
+.education-details p {
+    margin: 3px 0;
+    background-size: round;
+}
+.education-image {
+    max-width: 100px; /* Adjust the maximum width for the image */
+    border-radius: 50%; /* Make the image circular */
+}
+
+
+
 
 
 
